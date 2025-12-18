@@ -27,15 +27,13 @@ export const metadata: Metadata = {
         type: "image/png",
       },
       {
-        url: "/logo.svg",
+        url: "/icon.svg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-icon.png",
   },
 }
-
-
 
 export default function RootLayout({
   children,
@@ -44,6 +42,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics 4 */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-CMV2ER0RMZ`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-CMV2ER0RMZ');
+            `,
+          }}
+        />
+      </head>
       <body className={`${inter.className} font-sans antialiased`}>
         {children}
         <Analytics />
