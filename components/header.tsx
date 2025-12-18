@@ -8,7 +8,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="container mx-auto flex h-20 items-center justify-between px-6 md:px-8">
         <Link href="/" className="flex items-center">
-          <div className="text-2xl font-bold text-[#1e40af]">ServiGroww</div>
+          <div className="text-2xl font-bold text-[#1e40af]">ServiGrow</div>
         </Link>
 
         {/* Desktop Navigation */}
