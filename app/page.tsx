@@ -46,7 +46,7 @@ export default function HomePage() {
                 <h3 className="text-2xl font-bold mb-10 text-[#1e40af]">For Customers</h3>
                 <div className="space-y-8">
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#1e40af]/10 text-[#1e40af] flex items-center justify-center font-bold text-lg">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-[#1e40af]/10 text-[#1e40af] flex items-center justify-center font-bold text-lg">
                       1
                     </div>
                     <div>
@@ -57,7 +57,7 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#1e40af]/10 text-[#1e40af] flex items-center justify-center font-bold text-lg">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-[#1e40af]/10 text-[#1e40af] flex items-center justify-center font-bold text-lg">
                       2
                     </div>
                     <div>
@@ -68,7 +68,7 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#1e40af]/10 text-[#1e40af] flex items-center justify-center font-bold text-lg">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-[#1e40af]/10 text-[#1e40af] flex items-center justify-center font-bold text-lg">
                       3
                     </div>
                     <div>
@@ -86,7 +86,7 @@ export default function HomePage() {
                 <h3 className="text-2xl font-bold mb-10 text-[#16a34a]">For Workers</h3>
                 <div className="space-y-8">
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#16a34a]/10 text-[#16a34a] flex items-center justify-center font-bold text-lg">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-[#16a34a]/10 text-[#16a34a] flex items-center justify-center font-bold text-lg">
                       1
                     </div>
                     <div>
@@ -95,7 +95,7 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#16a34a]/10 text-[#16a34a] flex items-center justify-center font-bold text-lg">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-[#16a34a]/10 text-[#16a34a] flex items-center justify-center font-bold text-lg">
                       2
                     </div>
                     <div>
@@ -104,7 +104,7 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#16a34a]/10 text-[#16a34a] flex items-center justify-center font-bold text-lg">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-[#16a34a]/10 text-[#16a34a] flex items-center justify-center font-bold text-lg">
                       3
                     </div>
                     <div>
@@ -171,7 +171,7 @@ export default function HomePage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 max-w-6xl mx-auto">
               <div className="flex gap-5">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-12 h-12 bg-[#16a34a] rounded-lg flex items-center justify-center">
                     <CheckCircle className="h-6 w-6 text-white" />
                   </div>
@@ -183,7 +183,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-5">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-12 h-12 bg-[#1e40af] rounded-lg flex items-center justify-center">
                     <MessageCircle className="h-6 w-6 text-white" />
                   </div>
@@ -195,7 +195,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-5">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-12 h-12 bg-[#1e40af] rounded-lg flex items-center justify-center">
                     <Shield className="h-6 w-6 text-white" />
                   </div>
@@ -207,7 +207,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-5">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-12 h-12 bg-[#1e40af] rounded-lg flex items-center justify-center">
                     <MapPin className="h-6 w-6 text-white" />
                   </div>
@@ -219,7 +219,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-5">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-12 h-12 bg-[#16a34a] rounded-lg flex items-center justify-center">
                     <Globe className="h-6 w-6 text-white" />
                   </div>
@@ -231,7 +231,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-5">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-12 h-12 bg-[#f97316] rounded-lg flex items-center justify-center">
                     <Star className="h-6 w-6 text-white" />
                   </div>
