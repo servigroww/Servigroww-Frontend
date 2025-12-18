@@ -7,31 +7,34 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ServiGroww - India's One App for All Blue-Collar Jobs",
+  title: "ServiGrow - India's One App for All Blue-Collar Jobs",
   description:
     "Find skilled workers near you or get work opportunities in your city — directly, safely, and fairly.",
-  generator: "v0.app",
   verification: {
     google: "WhnI-8sxfsqwsXTzSAvhH6AAag_94HA8JyN79btSAq4",
   },
+  applicationName: "ServiGrow",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
+        url: "/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
       },
       {
-        url: "/icon.svg",
+        url: "/logo.svg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/apple-touch-icon.png",
   },
 }
+
 
 
 export default function RootLayout({
