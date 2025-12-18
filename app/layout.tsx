@@ -8,8 +8,12 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "ServiGroww - India's One App for All Blue-Collar Jobs",
-  description: "Find skilled workers near you or get work opportunities in your city — directly, safely, and fairly.",
+  description:
+    "Find skilled workers near you or get work opportunities in your city — directly, safely, and fairly.",
   generator: "v0.app",
+  verification: {
+    google: "WhnI-8sxfsqwsXTzSAvhH6AAag_94HA8JyN79btSAq4",
+  },
   icons: {
     icon: [
       {
@@ -28,6 +32,7 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
 }
+
 
 export default function RootLayout({
   children,
