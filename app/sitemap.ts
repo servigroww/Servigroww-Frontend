@@ -14,6 +14,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://www.servigrow.com/contact",
       lastModified: new Date(),
     },
-    // Add more pages dynamically if needed
   ];
 }
