@@ -9,6 +9,7 @@ export default function HomePage() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
+
       <main className="flex-1">
         {/* Hero Section */}
         <section className="bg-white py-24 md:py-32 lg:py-40">
