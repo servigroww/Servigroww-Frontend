@@ -14,13 +14,13 @@ export function Footer() {
               <a href="#" className="hover:text-white/80 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors">
+              <a href="https://x.com/ServiGroww" className="hover:text-white/80 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors">
+              <a href="https://www.instagram.com/servigroww/" className="hover:text-white/80 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="hover:text-white/80 transition-colors">
+              <a href="https://www.linkedin.com/company/servigrow/" className="hover:text-white/80 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
