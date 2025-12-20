@@ -39,14 +39,14 @@ export default function AboutPage() {
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               To empower India's blue-collar workforce by giving them a digital
               identity, fair access to work, and direct connection with
-              customers — all while maintaining transparency, trust, and dignity
+              customers all while maintaining transparency, trust, and dignity
               in every interaction.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
               Our vision is to become the default platform where every skilled
               worker in India can find work nearby, build their professional
-              reputation, and grow their livelihood — creating a thriving
+              reputation, and grow their livelihood creating a thriving
               ecosystem that benefits workers and customers equally.
             </p>
           </div>
@@ -99,7 +99,7 @@ export default function AboutPage() {
               The People Behind ServiGroww
             </h2>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-              ServiGroww was born from a simple belief — skilled workers deserve
+              ServiGroww was born from a simple belief skilled workers deserve
               dignity, visibility, and fair opportunities through technology.
             </p>
 
@@ -116,7 +116,7 @@ export default function AboutPage() {
                   <p className="text-gray-600 text-sm leading-relaxed mb-4">
                     Shivam envisioned ServiGroww to bridge the gap between
                     skilled blue-collar workers and customers by giving workers
-                    a digital identity, respect, and direct access to work —
+                    a digital identity, respect, and direct access to work
                     without middlemen.
                   </p>
 
